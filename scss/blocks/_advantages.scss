@@ -1,0 +1,26 @@
+.advantages {
+    margin-bottom: 8rem;
+    &__cards {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    &__item {
+        flex-basis: 50%;
+        min-width: 120px;
+        padding-right: 7rem;
+        padding-bottom: 3.81rem;
+        @media screen and (max-width: 600px) {
+            flex-basis: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0;
+            margin-bottom: 1.72rem;
+        }
+    }
+
+    @media screen and (max-width: 414px) {
+       margin-bottom: 4.5rem;
+    }
+}

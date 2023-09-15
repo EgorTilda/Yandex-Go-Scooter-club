@@ -1,0 +1,35 @@
+.plus {
+    margin-bottom: 8rem;
+    &__inner {
+        align-items: stretch;
+    }
+    &__content {
+       max-width: 26rem;
+       flex-basis: 50%;
+       flex-shrink: 0;
+       margin-right: 10%;
+     
+    }
+    &__title {
+        max-width: 25rem;
+        @media screen and (max-width: 414px) {
+            margin-bottom: 2rem;
+        }
+    }
+    &__text {
+    }
+    &__img-content {
+        flex-basis: 50%;
+        overflow: hidden;
+        .plus__img {
+            height: auto;
+            max-width: 100%; 
+        }
+        @media screen and (max-width: 414px) {
+            display: none;
+       }
+    }
+    @media screen and (max-width: 414px) {
+        margin-bottom: 2rem;
+    }
+}

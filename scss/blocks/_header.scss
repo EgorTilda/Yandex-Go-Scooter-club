@@ -1,0 +1,115 @@
+.header {
+    padding: 8rem 0;
+    background-image: url('./../../assets/img/Cover.png');
+    background-size: 64%;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 100%;
+    z-index: 2;
+
+    @media screen and (max-width: 992px) {
+        & {
+            background-size: 55%;
+            background-position: right;
+            padding: 2rem 0;
+        }
+        
+    }
+    @media screen and (max-width: 768px) {
+        & {
+            background-image: none;
+        }
+        &__cover {
+            display: block;
+        }
+        
+    }
+    &__cover {
+        min-width: 300px;
+        display: none;
+        @media screen and (max-width: 768px) {
+            & {
+                display: block;
+            }
+            
+        }
+    }
+    &__logo {
+        min-width: 7rem;
+        display: block;
+        margin-bottom: 4.5rem;
+        @media screen and (max-width: 768px) {
+            img {
+                width: 7rem;
+            }
+        }
+        @media screen and (max-width: 414px) {
+            margin-bottom: 2rem;
+        }
+    }
+
+    &__content {
+    }
+
+    &__btn {
+        @media screen and (max-width: 414px) {
+            & {
+                display: none;
+            }
+        }
+    }
+
+    &__title {
+        @media screen and (max-width: 414px) {
+            & {
+                margin-bottom: 2rem;
+            }
+        }
+    }
+
+    &__text {
+        @media screen and (max-width: 414px) {
+            & {
+                margin-bottom: 2rem;
+            }
+        }
+    }
+}
+
+.header-wrap {
+    position: relative;
+    z-index: 1;
+    background-image: url('./../../assets/img/Cover_decor.png');
+    background-repeat: no-repeat;
+    background-position: 80% top;
+    &::after {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: -2;
+        opacity: 0.22;
+        background: linear-gradient(0deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.2) 100%),
+            linear-gradient(90deg, #ddd 0%, #eb469f 25%, #8341ef 72%, #3f68f9 100%);
+    }
+    &::before {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: -1;
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #fff 100%);
+    }
+    @media screen and (max-width: 992px) {
+        margin-bottom: 5rem;
+    }
+    @media screen and (max-width: 414px) {
+        margin-bottom: 4.5rem;
+    }
+}

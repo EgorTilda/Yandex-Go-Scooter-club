@@ -1,0 +1,16 @@
+.offer {
+    padding-bottom: 8rem;
+    &__inner {
+        p {
+            color: $subtitle;
+            font-size: 0.81rem;
+            line-height: 1.2;
+            @media screen and (max-width: 414px) {
+                font-size: .6rem;
+            }
+        }
+    }
+
+    &__content {
+    }
+}

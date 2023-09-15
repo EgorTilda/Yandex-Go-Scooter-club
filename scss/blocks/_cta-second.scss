@@ -1,0 +1,41 @@
+.cta-second {
+    margin-bottom: 6.94rem;
+
+    &__inner {
+        justify-content: space-between;
+    }
+    &__btn-wrap {
+        @media screen and (max-width: 414px) {
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+    &__img-content {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 1rem;
+        overflow: hidden;
+        img {
+            width: 150%;
+            height: auto;
+            object-fit: cover;
+        }
+        @media screen and (max-width: 414px) {
+            margin-bottom: 1rem;
+            img {
+                width: 17rem;
+                height: auto;
+            }
+        }
+    }
+
+    &__content {
+    }
+
+    &__title {
+    }
+
+    &__text {
+    }
+}

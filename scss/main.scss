@@ -1,0 +1,14 @@
+// General Styles
+@import './base/reset';
+@import './base/fonts';
+@import './base/variables';
+@import './base/grid';
+@import './base/common';
+
+// Blocks Styles
+@import './blocks/header';
+@import './blocks/advantages';
+@import './blocks/exclusive';
+@import './blocks/plus';
+@import './blocks/cta-second';
+@import './blocks/offer';
