@@ -87,21 +87,21 @@ legend {
 
 @font-face {
   font-family: "YS Text";
-  src: url("./../../assets/fonts/text-regular.woff") format("woff");
+  src: url("./../assets/fonts/text-regular.woff") format("woff");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "YS Text";
-  src: url("./../../assets/fonts/text-medium.woff") format("woff");
+  src: url("./../assets/fonts/text-medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "YS Text";
-  src: url("./../../assets/fonts/text-black.woff") format("woff");
+  src: url("./../assets/fonts/text-black.woff") format("woff");
   font-weight: 900;
   font-style: normal;
   font-display: swap;
@@ -334,7 +334,7 @@ p {
 
 .header {
   padding: 8rem 0;
-  background-image: url("./../../assets/img/Cover.png");
+  background-image: url("./../assets/img/Cover.png");
   background-size: 64%;
   background-repeat: no-repeat;
   background-position: right;
@@ -399,7 +399,7 @@ p {
 .header-wrap {
   position: relative;
   z-index: 1;
-  background-image: url("./../../assets/img/Cover_decor.png");
+  background-image: url("./../assets/img/Cover_decor.png");
   background-repeat: no-repeat;
   background-position: 80% top;
 }
